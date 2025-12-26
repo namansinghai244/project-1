@@ -56,7 +56,7 @@ getWeather().then(sols => {
 function displaySelectedSol(sols) {
 	const selectedSol = sols[selectedSolIndex]
 	currentSolElement.innerText = selectedSol.sol
-	currentDateElement.innerText = displayDate(selectedSol.date)
+	currentDateElement.innerText = displayDate(new Date())
 	currentTempHighElement.innerText = displayTemperature(selectedSol.maxTemp)
 	currentTempLowElement.innerText = displayTemperature(selectedSol.minTemp)
 	windSpeedElement.innerText = displaySpeed(selectedSol.windSpeed)
