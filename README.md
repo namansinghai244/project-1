@@ -1,2 +1,2 @@
 # Mars-Weather-App
- Mars weather app for YT collab by Kevin Powell and Web Dev Simplified.
+Mars Weather Tracker made by Naman Singhai for demonstration of HTML development skill for Customer Success Associate(Technical Based) at GemCommerce.
